@@ -1,0 +1,183 @@
+.navbar {
+  background-color: #8B5E9B !important;
+}
+
+.heading-html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: cursive;
+}
+
+.prp-nosotros {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  font-size: 25px;
+}
+
+.color-main {
+  background-color: #F0CDFE;
+}
+
+.color-body {
+  background-color: #F1DEF9;
+}
+
+.ul-index {
+  padding-left: 100px;
+  font-size: 20px;
+}
+
+.prp-adopta {
+  font-size: 23px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.img-cat-index {
+  margin-top: 35px;
+  margin-left: 65px;
+  width: 34%;
+  border-radius: 20px;
+  border: outset;
+}
+
+.a-gatos {
+  margin-left: 25px;
+}
+
+.img-perro-index {
+  margin-top: 35px;
+  margin-left: 100px;
+  width: 20%;
+  border-radius: 20px;
+  border: outset;
+}
+
+.a-perros {
+  margin-left: 25px;
+}
+
+.hding-adopta {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(186, 136, 201);
+  border-radius: 25px;
+  margin: 25px 200px;
+  padding: 5px;
+}
+
+.img-gatitos {
+  margin-left: 40px;
+  border-radius: 10px;
+  margin-top: 25px;
+  max-width: 40%;
+  display: flex;
+}
+
+.img-gatitos2 {
+  margin-left: 40px;
+  border-radius: 10px;
+  margin-top: 25px;
+  max-width: 28%;
+}
+
+.img-gatitos3 {
+  margin-left: 40px;
+  border-radius: 10px;
+  margin-top: 25px;
+  max-width: 25%;
+  margin-bottom: 30px;
+}
+
+.a-gatos1 {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.div-centrado {
+  display: flex;
+  align-items: center;
+}
+
+.img-lucy {
+  max-width: 40%;
+  margin: 50px;
+  border-radius: 15px;
+  border: double;
+}
+
+.div-lucy {
+  display: flex;
+  align-items: center;
+}
+
+.prp-lucy {
+  display: block;
+}
+
+.li-adopta {
+  font-size: 30px;
+}
+
+.img-marquitos {
+  max-width: 50%;
+  margin: 50px;
+  border-radius: 15px;
+  border: double;
+}
+
+.img-tabby {
+  max-width: 40%;
+  margin: 50px;
+  border-radius: 15px;
+  border: double;
+}
+
+.img-perrito1 {
+  max-width: 30%;
+  margin-left: 40px;
+  border-radius: 10px;
+  margin-top: 25px;
+  display: flex;
+}
+
+.img-perrito2 {
+  max-width: 30%;
+  margin-left: 40px;
+  border-radius: 10px;
+  margin-top: 25px;
+  display: flex;
+}
+
+.img-perrito3 {
+  max-width: 30%;
+  margin-left: 40px;
+  border-radius: 10px;
+  margin-top: 25px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+.div-footer{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(186, 136, 201);
+  border-radius: 25px;
+  margin: 25px 200px;
+  padding: 5px;
+}
