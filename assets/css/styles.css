@@ -3,99 +3,14 @@
 }
 
 /*Menu*/
-.body-menu{
-  display: flex;
-  min-height: 100vh;
-  margin: 0;
-  font-family: sans-serif !important;
+.nav-item.active {
+  background-color: #242729; /* Cambia el color de fondo*/
+  color: #fff; 
 }
 
-
-.header-menu{
-  width: 20%;
-  background-color: #434247;
-  color: white;
-  padding: 10px;
-  padding-right: 20px;
-  font-family: sans-serif;
+.carousel-item{
+  max-width: 100%;
 }
-
-.ul-menu {
-  width: 20%;
-}
-
-.li-menu{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  
-}
-
-.ul-menu .li-menu a {
-  text-decoration: none;
-  color: white;
-
-}
-
-.ul-menu .li-menu a:hover {
-  color: #b1a8a8; 
-}
-
-nav ul a{
-  box-sizing: border-box;
-  color: white;
-  background:  #434247;
-  display: block;
-  width: 100%;
-  padding: 6px 10px;
-  
-}
-/*Fin Menu*/
-
-/*Contenedores*/
-.content {
-  display: flex;
-  height: 100%;
-}
-
-.container {
-  height: 25vh; /* Cada contenedor ocupa el 25% del viewport height */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 24px;
-}
-
-.blue {
-  background-color: rgb(55, 167, 211);
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-.orange {
-  background-color: orange;
-}
-
-.red {
-  background-color: red;
-}
-
-.container.blue h2 {
-  margin-bottom: 10px; /* Espacio entre el título y el texto */
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  font-size: 15px;
-}
-/*Fin Contenedores*/
 
 .prp-nosotros {
   display: flex;
