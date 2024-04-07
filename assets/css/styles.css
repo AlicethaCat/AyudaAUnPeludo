@@ -8,9 +8,91 @@
   color: #fff; 
 }
 
+.Espaciado {
+  margin-bottom: 100px;
+}
+
+/*Carrusel*/
 .carousel-item{
   max-width: 100%;
 }
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.caption-box {
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+  color: white; /* Texto blanco */
+  padding: 20px;
+  border-radius: 20px; /* Bordes redondeados */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.8); /* Negro con opacidad */
+}
+
+
+/*footer*/
+.footer {
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: white; 
+  text-align: center; 
+  padding: 20px 0; 
+  position: fixed; 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/*Contactanos*/
+.background-container {
+  position: relative;
+  height: 100vh;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con opacidad */
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo negro con opacidad */
+  color: white; /* Color del texto */
+  border-radius: 10px; /* Bordes redondos */
+  padding: 20px; /* Espaciado interno */
+}
+
+ul {
+  list-style: none; /* Quitar viñetas de la lista */
+  padding: 0; /* Quitar el espacio interno */
+  margin: 0; /* Quitar el margen */
+}
+
+li {
+  margin-bottom: 10px; /* Espacio entre elementos de la lista */
+}
+/*Configuraciones*/
 
 .prp-nosotros {
   display: flex;
@@ -20,11 +102,11 @@
 }
 
 .color-main {
-  background-color: #F0CDFE;
+  background-color: #c7c2c9;
 }
 
 .color-body {
-  background-color: #F1DEF9;
+  background-color: #d9d3db;
 }
 
 .ul-index {
@@ -42,67 +124,41 @@
   margin-right: 40px;
   margin-left: 40px;
 }
-
-.img-cat-index {
-  margin-top: 35px;
-  margin-left: 65px;
-  width: 34%;
-  border-radius: 20px;
-  border: outset;
+/*Imagenes*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.a-gatos {
-  margin-left: 25px;
+/* Cada elemento ocupa el 30% del contenedor */
+.item {
+  text-align: center;
+  flex: 0 0 30%; 
 }
 
-.img-perro-index {
-  margin-top: 35px;
-  margin-left: 100px;
-  width: 20%;
-  border-radius: 20px;
-  border: outset;
+.item img {
+  width: 100%;
+  height: auto;
 }
 
-.a-perros {
-  margin-left: 25px;
+.description {
+  margin-top: 10px;
 }
 
 .hding-adopta {
   display: flex;
   justify-content: center;
-  background-color: rgb(186, 136, 201);
+  background-color: rgb(78, 76, 78);
+  color: white;
   border-radius: 25px;
   margin: 25px 200px;
   padding: 5px;
 }
 
-.img-gatitos {
-  margin-left: 40px;
-  border-radius: 10px;
-  margin-top: 25px;
-  max-width: 40%;
-  display: flex;
-}
-
-.img-gatitos2 {
-  margin-left: 40px;
-  border-radius: 10px;
-  margin-top: 25px;
-  max-width: 28%;
-}
-
-.img-gatitos3 {
-  margin-left: 40px;
-  border-radius: 10px;
-  margin-top: 25px;
-  max-width: 25%;
-  margin-bottom: 30px;
-}
-
-.a-gatos1 {
-  display: flex;
-  margin-top: 5px;
-  margin-left: 50px;
+.card-body a.card-link {
+  display: block; 
+  text-align: center; 
 }
 
 .div-centrado {
@@ -144,42 +200,7 @@
   border: double;
 }
 
-.img-perrito1 {
-  max-width: 30%;
-  margin-left: 40px;
-  border-radius: 10px;
-  margin-top: 25px;
-  display: flex;
-}
-
-.img-perrito2 {
-  max-width: 30%;
-  margin-left: 40px;
-  border-radius: 10px;
-  margin-top: 25px;
-  display: flex;
-}
-
-.img-perrito3 {
-  max-width: 30%;
-  margin-left: 40px;
-  border-radius: 10px;
-  margin-top: 25px;
-  display: flex;
-  margin-bottom: 30px;
-}
-
 .navbar-brand{
   font-weight: bold;
   font-size: 25px;
-}
-
-
-.div-footer{
-  display: flex;
-  justify-content: center;
-  background-color: rgb(186, 136, 201);
-  border-radius: 25px;
-  margin: 25px 200px;
-  padding: 5px;
 }
